@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: document
   path: posts
+  label: Post 1
+  match: "**/*"
+- type: document
+  path: posts
   label: Test
 upload_dir: uploads
 public_path: "/uploads"
